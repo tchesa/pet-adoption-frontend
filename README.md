@@ -1,3 +1,7 @@
+layout: https://www.figma.com/file/8RFpo1f8CKaVYOQNYdAkqz/Dentist-Template-%F0%9F%9F%A3-by-Flowbase.co-(Community)?node-id=401%3A31
+
+font: https://fonts.google.com/specimen/Montserrat?query=Montserrat
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
