@@ -1,0 +1,11 @@
+@import "../variables/colors.scss";
+
+@mixin button {
+  padding: 15px 25px;
+  border-radius: 12px;
+  background-color: $primary100;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}

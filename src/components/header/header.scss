@@ -1,0 +1,59 @@
+@import "../../assets/style/mixins/max-width.scss";
+@import "../../assets/style/variables/colors.scss";
+@import "../../assets/style/mixins/button.scss";
+
+$spacing-x: 80px;
+$spacing-y: 32px;
+
+.header {
+  @include max-width;
+  padding: $spacing-y $spacing-x;
+  display: flex;
+  position: relative;
+
+  .home {
+    color: $dark100;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: $spacing-y;
+    left: $spacing-x;
+
+    strong {
+      color: $primary100;
+    }
+
+    img {
+      height: 32px;
+      margin-right: 8px;
+    }
+  }
+
+  nav {
+    text-align: center;
+    width: 100%;
+
+    a {
+      color: $dark100;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      padding: 15px;
+      display: inline-block;
+
+      &:not(:last-child) {
+        margin-right: 26px;
+      }
+    }
+  }
+
+  .adopt-button {
+    @include button;
+    position: absolute;
+    top: $spacing-y;
+    right: $spacing-x;
+  }
+}
